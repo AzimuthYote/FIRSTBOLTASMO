@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#2E0249] text-white;
+  }
+  
+  input, textarea {
+    @apply bg-transparent focus:outline-none;
+  }
+  
+  button {
+    @apply transition-colors duration-200;
+  }
+}
